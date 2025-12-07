@@ -25,4 +25,7 @@ flutter pub add flutter_deck
 
 - <https://flutterdeck.dev/>
 
+## Github Page
 
+- こちらで公開可能なこと確認
+  - <https://tutttuwi.github.io/flutter_deck_sample>
