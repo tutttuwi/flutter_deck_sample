@@ -12,8 +12,8 @@
 
 build:
 	# build/web にビルド成果物を生成
-	flutter build web
+	flutter build web --release --base-href "/flutter_deck_sample/"
 	# build/web の成果物を docs/ にコピー (github pages では docs/ をルートディレクトリとして扱う)
-	cp -r build/web/* docs/
-	# docs/index.html の base href を /flutter_web_github_pages/ に変更
-	sed -i '' 's|<base href="/">|<base href="/flutter_web_github_pages/">|' docs/index.html
+	# cp -r build/web/* docs/
+	# docs/index.html の base href を /flutter_deck_sample/ に変更
+	# sed -i '' 's|<base href="/">|<base href="/flutter_deck_sample/">|' docs/index.html
